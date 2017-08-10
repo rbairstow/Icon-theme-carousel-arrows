@@ -3,9 +3,9 @@
 Collection Carousel = Icon theme
 To re-position the arrows from the bottom left position to either side of the carousel without any z-index issues:
 
+Add this to the bottom of queries.css.liqiud to over-write the baked in styles
 
-bottom of queries.css.liqiud
-
+```html
 @media screen and (max-width: 740px ) {
     .collection-carousel .owl-controls {
         position: absolute;
@@ -24,3 +24,4 @@ bottom of queries.css.liqiud
         float: right;
     }
 }
+```
